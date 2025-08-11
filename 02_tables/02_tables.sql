@@ -2,6 +2,8 @@
 
 -- Basics Tabelle + Datensätze anlegen
 
+-- AUTO INCREMENT/ INDEX/ PIRÄRSCHLÜSSEL
+
 -- DBs anzeigen
 SHOW DATABASES;
 
@@ -21,6 +23,7 @@ DROP TABLE IF EXISTS kunde;
 -- Tabellen anlegen
 CREATE TABLE IF NOT EXISTS kunde
 (
+    k_id INT AUTO_INCREMENT PRIMARY KEY,
     k_name VARCHAR(45),
     k_alter TINYINT
 );
@@ -34,6 +37,11 @@ DESCRIBE kunde;
 -- Datensätze/ Zeilen
 INSERT INTO kunde(k_name,k_alter) VALUES("Meier", 28);
 INSERT INTO kunde(k_name,k_alter) VALUES("Hussein", 32);
+INSERT INTO kunde(k_name,k_alter) VALUES("Li", 26);
+INSERT INTO kunde(k_name,k_alter) VALUES("Li", 40);
+INSERT INTO kunde(k_name,k_alter) VALUES("Li", 61);
+
+
 
 -- Tabellendaten (Inhalte) anzeigen
 SELECT * FROM kunde;
