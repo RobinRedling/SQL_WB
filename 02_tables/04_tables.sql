@@ -1,8 +1,6 @@
 \! cls 
 
--- Basics Tabelle + Datensätze anlegen
 
--- AUTO INCREMENT/ INDEX/ PIRÄRSCHLÜSSEL
 
 -- Passwort / Verschlüsselung
 
