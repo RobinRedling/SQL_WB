@@ -7,7 +7,7 @@
 DROP TABLE IF EXISTS boo.contacts
 
 -- 1. Tabelle erstellen mit AUTO_INCREMENT und PRIMARY KEY
-CREATE TABLE IF NOT EXISTS boo.cantacts (
+CREATE TABLE IF NOT EXISTS boo.contacts (
     id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100),
     address VARCHAR(255),
